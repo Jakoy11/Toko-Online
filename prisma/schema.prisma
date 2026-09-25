@@ -1,0 +1,9 @@
+model Product {
+  id          Int     @id @default(autoincrement())
+  name        String
+  price       Int
+  description String?
+  slug        String  @unique
+  // Apatagilakah ada kolom lain di sini yang TIDAK pakai '?' (wajib isi)?
+  // Contoh: image String, stock Int, categoryId Int
+}

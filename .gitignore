@@ -1,0 +1,12 @@
+# Next.js build output & cache (Penting!)
+.next/
+out/
+build/
+
+# Node modules & Environment
+node_modules/
+.env
+.env*.local
+
+# Prisma generated
+/lib/generated/prisma
