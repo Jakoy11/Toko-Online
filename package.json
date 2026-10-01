@@ -7,9 +7,13 @@
     "seed": "npx tsx prisma/seed.ts"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "postinstall": "prisma generate"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
